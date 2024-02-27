@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 736.0, 126.0, 20.0 ],
+					"patching_rect" : [ 16.0, 656.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_bjorklund",
 						"parameter_enable" : 0
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 16.0, 672.0, 144.0, 20.0 ],
+					"patching_rect" : [ 16.0, 680.0, 144.0, 20.0 ],
 					"text" : "text middleware_scales.json"
 				}
 
@@ -86,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 704.0, 125.0, 20.0 ],
+					"patching_rect" : [ 16.0, 632.0, 125.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_toussaint",
 						"parameter_enable" : 0
@@ -103,7 +103,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 640.0, 111.0, 20.0 ],
+					"patching_rect" : [ 16.0, 608.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_scales",
 						"parameter_enable" : 0
@@ -120,7 +120,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 608.0, 130.0, 20.0 ],
+					"patching_rect" : [ 16.0, 584.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_randomize",
 						"parameter_enable" : 0
@@ -137,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 544.0, 126.0, 20.0 ],
+					"patching_rect" : [ 16.0, 536.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_euclidean",
 						"parameter_enable" : 0
@@ -154,7 +154,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 576.0, 111.0, 20.0 ],
+					"patching_rect" : [ 16.0, 560.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_scales",
 						"parameter_enable" : 0
