@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 652.0, 286.0, 986.0, 851.0 ],
+		"rect" : [ 652.0, 232.0, 709.0, 851.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,132 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 504.0, 150.0, 29.0 ],
+					"text" : "Make sure script files are included in the frozen device."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 736.0, 126.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_bjorklund",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_bjorklund"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 16.0, 672.0, 144.0, 20.0 ],
+					"text" : "text middleware_scales.json"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 704.0, 125.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_toussaint",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_toussaint"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 640.0, 111.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_scales",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_scales"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 608.0, 130.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_randomize",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_randomize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 544.0, 126.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_euclidean",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_euclidean"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 576.0, 111.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_scales",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_scales"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-84",
 					"maxclass" : "live.tab",
@@ -477,7 +603,49 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "middleware_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_euclidean.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_randomize.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_scales.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_toussaint.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_toussaint.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../../sidewinder/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
