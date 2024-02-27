@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 680.0, 126.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_distribute",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_distribute"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -74,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 16.0, 680.0, 144.0, 20.0 ],
+					"patching_rect" : [ 16.0, 704.0, 144.0, 20.0 ],
 					"text" : "text middleware_scales.json"
 				}
 
@@ -611,6 +628,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "middleware_distribute.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "middleware_euclidean.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
@@ -626,13 +650,6 @@
 			}
 , 			{
 				"name" : "middleware_scales.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_toussaint.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
