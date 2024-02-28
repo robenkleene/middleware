@@ -128,7 +128,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.0, 248.0, 336.0, 256.0 ]
+					"patching_rect" : [ 560.0, 248.0, 336.0, 256.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 40.0, 248.0, 120.0 ]
 				}
 
 			}
@@ -144,6 +146,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 560.0, 120.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -332,7 +336,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 8.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 0.0, 168.0, 16.0 ],
+					"presentation_rect" : [ 480.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
@@ -373,7 +377,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 24.0, 16.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 280.0, 0.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -656,7 +660,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 24.0, 88.0, 400.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -24.0, 16.0, 392.0, 144.0 ],
+					"presentation_rect" : [ 256.0, 16.0, 392.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
