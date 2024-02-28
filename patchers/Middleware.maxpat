@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 652.0, 232.0, 709.0, 851.0 ],
+		"rect" : [ 385.0, 100.0, 954.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,51 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-20",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 560.0, 96.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Run",
+					"varname" : "live.text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 560.0, 120.0, 119.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_wrapper",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_wrapper"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -549,6 +594,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 2 ],
 					"source" : [ "obj-4", 3 ]
 				}
@@ -606,6 +658,7 @@
  ],
 		"parameters" : 		{
 			"obj-1" : [ "Sequencer", "Sequencer", 0 ],
+			"obj-20" : [ "live.text", "live.text", 0 ],
 			"obj-84" : [ "#1-Mode", "Mode", 0 ],
 			"obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
@@ -650,6 +703,13 @@
 			}
 , 			{
 				"name" : "middleware_scales.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_toussaint.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
