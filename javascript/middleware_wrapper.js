@@ -6,11 +6,10 @@ inlets = 1;
 outlets = 1;
 
 // External Dependencies
-include("sidewinder_toussaint");
-var generate = toussaint;
+include("sidewinder_euclidean");
 
 function bang() {
-  var result = generate(3, 11);
+  var result = euclidean(3, 11);
   log(result);
   // outlet(0, result);
 }
