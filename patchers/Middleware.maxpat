@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 152.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 16.0, 248.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 704.0, 120.0, 51.0, 20.0 ],
+					"text" : "strippath"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -87,7 +112,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 704.0, 32.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 384.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 96.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -288,9 +313,9 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 144.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "middleware_wrapper",
@@ -819,6 +844,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -898,6 +930,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -1035,6 +1083,13 @@
 			}
 , 			{
 				"name" : "middleware_toussaint.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_wrapper.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
