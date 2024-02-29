@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 693.0, 159.0, 954.0, 772.0 ],
+		"rect" : [ 614.0, 158.0, 677.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -313,12 +313,12 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 560.0, 144.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_wrapper",
+						"filename" : "middleware_wrapper.js",
 						"parameter_enable" : 0
 					}
 ,
