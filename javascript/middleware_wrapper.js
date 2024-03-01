@@ -10,8 +10,8 @@ include("middleware_euclidean");
 
 function bang() {
   var result = euclidean(3, 11);
-  log(result);
-  // outlet(0, result);
+  // log(result);
+  outlet(0, result);
 }
 
 function log(obj) {

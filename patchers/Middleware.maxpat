@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 883.0, 261.0, 400.0, 772.0 ],
+		"rect" : [ 421.0, 261.0, 862.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -344,7 +344,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 240.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_wrapper.js",
+						"filename" : "middleware_wrapper",
 						"parameter_enable" : 0
 					}
 ,
@@ -470,7 +470,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 536.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_euclidean.js",
+						"filename" : "middleware_euclidean",
 						"parameter_enable" : 0
 					}
 ,
