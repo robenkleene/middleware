@@ -6,7 +6,7 @@ inlets = 1;
 outlets = 1;
 
 // External Dependencies
-include("sidewinder_euclidean");
+include("middleware_euclidean");
 
 function bang() {
   var result = euclidean(3, 11);
