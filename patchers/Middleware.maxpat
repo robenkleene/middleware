@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 681.0, 124.0, 677.0, 772.0 ],
+		"rect" : [ 883.0, 261.0, 400.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -344,7 +344,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 240.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_wrapper",
+						"filename" : "middleware_wrapper.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -470,7 +470,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 536.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_euclidean",
+						"filename" : "middleware_euclidean.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -1124,13 +1124,6 @@
 				"name" : "middleware_wrapper.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sidewinder_toussaint.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
-				"patcherrelativepath" : "../../sidewinder/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
