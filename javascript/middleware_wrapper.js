@@ -7,6 +7,8 @@ outlets = 1;
 
 // External Dependencies
 include("middleware_euclidean");
+include("middleware_intervals");
+include("middleware_scales");
 
 function bang() {
   var result = euclidean(3, 11);
