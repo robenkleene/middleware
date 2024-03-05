@@ -12,10 +12,14 @@ include("middleware_scales");
 
 function bang() {
   var euclidean = generateEuclidean(3, 11);
-  // var intervals = getIntervals("minor");
-  // log(result);
-  outlet(0, euclidean);
-  // outlet(0, intervals);
+  var intervals = getIntervals("minor");
+  output(euclidean);
+  output(intervals);
+}
+
+function output(text) {
+  outlet(0, text);
+  outlet(0, "\n");
 }
 
 function log(obj) {

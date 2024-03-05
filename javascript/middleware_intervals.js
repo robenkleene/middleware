@@ -1,4 +1,4 @@
-var interval;
+var getInterval;
 var nameToIntervals;
 
 function getNameToIntervals() {
@@ -24,7 +24,7 @@ function getNameToIntervals() {
     }
 };
 
-intervals = function intervals(name) {
+getIntervals = function intervals(name) {
   if (!nameToIntervals) {
     nameToIntervals = getNameToIntervals();
   }
