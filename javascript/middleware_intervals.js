@@ -1,5 +1,7 @@
-var intervals;
-intervals = function getIntervals() {
+var interval;
+var nameToIntervals;
+
+function getNameToIntervals() {
     var f = new File("middleware_intervals.json", "read");
     f.open();
     if (!f.isopen) {
@@ -21,3 +23,10 @@ intervals = function getIntervals() {
         post(e + "\n");
     }
 };
+
+intervals = function intervals(name) {
+  if (!nameToIntervals) {
+    nameToIntervals = getNameToIntervals();
+  }
+  return nameToIntervals[name];
+}

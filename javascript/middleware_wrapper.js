@@ -11,9 +11,11 @@ include("middleware_intervals");
 include("middleware_scales");
 
 function bang() {
-  var result = euclidean(3, 11);
+  var euclidean = generateEuclidean(3, 11);
+  // var intervals = getIntervals("minor");
   // log(result);
-  outlet(0, result);
+  outlet(0, euclidean);
+  // outlet(0, intervals);
 }
 
 function log(obj) {
