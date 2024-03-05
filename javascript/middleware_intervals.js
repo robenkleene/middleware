@@ -1,4 +1,4 @@
-var getInterval;
+var getIntervals;
 var nameToIntervals;
 
 function getNameToIntervals() {
