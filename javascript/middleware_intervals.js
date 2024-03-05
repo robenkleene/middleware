@@ -24,7 +24,7 @@ function getNameToIntervals() {
     }
 };
 
-getIntervals = function intervals(name) {
+getIntervals = function(name) {
   if (!nameToIntervals) {
     nameToIntervals = getNameToIntervals();
   }

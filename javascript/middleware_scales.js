@@ -1,7 +1,7 @@
 OCTAVE_SIZE = 12;
 
 var generateScale;
-generateScale = function(intervals, stepCount = 70, base = 60, min = 0, max = 127) {
+generateScale = function(intervals, stepCount, base, min, max) {
   var note = base;
   if (note < min) {
     note = min;
