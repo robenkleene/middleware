@@ -14,9 +14,9 @@ function bang() {
   var euclidean = generateEuclidean(3, 11);
   var intervals = getIntervals("minor");
   var scale = generateScale(intervals);
-  output(euclidean);
-  output(intervals);
-  output(scale);
+  output("euclidean: " + euclidean);
+  output("intervals: " + intervals);
+  output("scale: " + scale);
 }
 
 function output(text) {
