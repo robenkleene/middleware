@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 687.0, 267.0, 585.0, 772.0 ],
+		"rect" : [ 687.0, 267.0, 650.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -104,6 +104,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
 						}
@@ -133,6 +134,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.drop",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.drop",
 							"parameter_type" : 4
 						}
@@ -210,6 +212,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2
 						}
@@ -337,6 +340,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -526,6 +530,7 @@
 							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
 							"parameter_longname" : "#1-Mode",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Mode",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -561,12 +566,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 24.0, 16.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.0, 0.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 216.0, 0.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Play",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play",
 							"parameter_type" : 2
 						}
@@ -591,7 +597,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -849,6 +855,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Sequencer",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Sequencer",
 							"parameter_type" : 3
 						}
@@ -1121,6 +1128,13 @@
 			}
 , 			{
 				"name" : "middleware_euclidean.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_intervals.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
