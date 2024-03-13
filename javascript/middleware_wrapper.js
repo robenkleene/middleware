@@ -17,7 +17,7 @@ MAX_NOTE = 127;
 function bang() {
   var euclidean = generateEuclidean(3, 11);
   var intervals = getIntervals("minor");
-  var scale = generateScale(intervals, intervals.length, BASE_NOTE, MIN_NOTE, MAX_NOTE);
+  var scale = generateScale(intervals, intervals.length + 1, BASE_NOTE, MIN_NOTE, MAX_NOTE);
   output("euclidean: " + euclidean);
   output("intervals: " + intervals);
   output("scale: " + scale);
