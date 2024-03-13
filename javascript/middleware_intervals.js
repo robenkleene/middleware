@@ -28,5 +28,6 @@ getIntervals = function(name) {
   if (!nameToIntervals) {
     nameToIntervals = getNameToIntervals();
   }
-  return nameToIntervals[name].split(' ');
+  var intervals = nameToIntervals[name].split(' ');
+  return intervals.map(Number);
 }

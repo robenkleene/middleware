@@ -14,7 +14,7 @@ generateScale = function(intervals, stepCount, base, min, max) {
   for (var i = 0; i < stepCount - 1; i++) {
     if (intervals.length > 0) {
       var index = i % intervals.length;
-      note += intervals[index];
+      note += parseInt(intervals[index]);
       if (note > max) {
         while (note > min) {
           note = note - OCTAVE_SIZE;
