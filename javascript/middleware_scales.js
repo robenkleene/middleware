@@ -27,5 +27,5 @@ generateScale = function(intervals, stepCount, base, min, max) {
     }
     notes.push(note);
   }
-  return notes.join(' ');
+  return notes;
 };
