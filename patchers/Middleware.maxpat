@@ -316,8 +316,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 480.0, 344.0, 336.0, 256.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 48.0, 208.0, 112.0 ],
-					"text" : "\"2 1 2 2 1 2 2\""
+					"presentation_rect" : [ 0.0, 48.0, 208.0, 112.0 ]
 				}
 
 			}
