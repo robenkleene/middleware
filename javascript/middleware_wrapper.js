@@ -22,9 +22,11 @@ function bang() {
   var pulses = Math.round(intervals.length * 1.5);
   var durations = Array(steps).fill(duration)
   var euclidean = generateEuclidean(steps, pulses, durations);
+  var notes = distribute(euclidean, scale, durations);
   output("euclidean: " + euclidean);
   output("intervals: " + intervals);
   output("scale: " + scale);
+  output("notes: " + notes);
 }
 
 function output(text) {
