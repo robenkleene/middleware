@@ -15,14 +15,15 @@ MIN_NOTE = 0;
 MAX_NOTE = 127;
 
 function bang() {
-  var duration = 0.25
+  var division = 0.25;
+  var duration = time;
   var intervals = getIntervals("minor");
   var scale = generateScale(intervals, intervals.length + 1, BASE_NOTE, MIN_NOTE, MAX_NOTE);
   var steps = intervals.length;
   var pulses = Math.round(intervals.length * 1.5);
   var durations = Array(steps).fill(duration)
   var euclidean = generateEuclidean(steps, pulses, durations);
-  var notes = distribute(euclidean, scale, durations);
+  var notes = distribute(euclidean, division, scale, durations);
   output("euclidean: " + euclidean);
   output("intervals: " + intervals);
   output("scale: " + scale);
