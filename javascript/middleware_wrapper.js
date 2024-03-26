@@ -9,6 +9,7 @@ outlets = 1;
 include("middleware_euclidean");
 include("middleware_intervals");
 include("middleware_scales");
+include("middleware_distribute");
 
 BASE_NOTE = 60;
 MIN_NOTE = 0;
@@ -16,18 +17,21 @@ MAX_NOTE = 127;
 
 function bang() {
   var division = 0.25;
-  var duration = time;
+  var duration = division;
   var intervals = getIntervals("minor");
   var scale = generateScale(intervals, intervals.length + 1, BASE_NOTE, MIN_NOTE, MAX_NOTE);
   var steps = intervals.length;
   var pulses = Math.round(intervals.length * 1.5);
-  var durations = Array(steps).fill(duration)
+  var durations = Array(steps);
+  for(var i = 0; i < durations.length; i++) {
+    durations[i] = duration;
+  }
   var euclidean = generateEuclidean(steps, pulses, durations);
   var notes = distribute(euclidean, division, scale, durations);
   output("euclidean: " + euclidean);
   output("intervals: " + intervals);
   output("scale: " + scale);
-  output("notes: " + notes);
+  output("notes: " + JSON.stringify(notes));
 }
 
 function output(text) {
