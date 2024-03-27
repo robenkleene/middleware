@@ -272,7 +272,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 360.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 48.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -301,9 +301,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 584.0, 16.0, 140.0, 60.0 ],
+					"patching_rect" : [ 584.0, 16.0, 96.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 0.0, 104.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 104.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -380,7 +380,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 504.0, 16.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 96.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
