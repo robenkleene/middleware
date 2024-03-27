@@ -49,7 +49,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Middleware Rack.maxpat",
+					"name" : "Middleware Bank.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -760,7 +760,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Middleware Rack.maxpat",
+				"name" : "Middleware Bank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
