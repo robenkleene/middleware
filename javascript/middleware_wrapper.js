@@ -3,7 +3,6 @@ autowatch = 1;
 
 // Inlets & Outlets
 inlets = 1;
-outlets = 1;
 
 // External Dependencies
 include("middleware_euclidean");
@@ -28,15 +27,9 @@ function bang() {
   }
   var euclidean = generateEuclidean(steps, pulses, durations);
   var notes = distribute(euclidean, division, scale, durations);
-  output("euclidean: " + euclidean);
-  output("intervals: " + intervals);
-  output("scale: " + scale);
-  output("notes: " + JSON.stringify(notes));
-}
-
-function output(text) {
-  outlet(0, text);
-  outlet(0, "\n");
+  var d = new Dict("output");
+  d.setparse("notes", notes);
+  log(notes);
 }
 
 function log(obj) {
