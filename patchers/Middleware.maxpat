@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 818.0, 277.0, 1391.0, 1129.0 ],
+		"rect" : [ 556.0, 154.0, 1391.0, 1129.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -77,9 +77,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 456.0, 320.0, 288.0, 96.0 ],
+					"patching_rect" : [ 456.0, 320.0, 152.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 56.0, 288.0, 96.0 ],
+					"presentation_rect" : [ 0.0, 56.0, 152.0, 96.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -96,7 +96,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 504.0, 216.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 0.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Dict", "Log" ],
@@ -156,7 +156,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 776.0, 248.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 104.0, 32.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -303,7 +303,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 584.0, 16.0, 96.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 104.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 96.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
