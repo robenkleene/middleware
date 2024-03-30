@@ -104,7 +104,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 9,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -112,9 +111,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 408.0, 176.0, 336.0, 256.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 18,
-					"presentation_rect" : [ 152.0, 0.0, 152.0, 104.0 ],
-					"text" : "\"euclidean: 1,0,1,1,0,1,1,0,1,1,0\"\n\"intervals: 2,1,2,2,1,2,2\"\n\"scale: 60,62,63,65,67,68,70,72\"\n\"notes: [{\"start_time\":0,\"pitch\":60,\"duration\":0.25},{\"start_time\":0.5,\"pitch\":63,\"duration\":0.25},{\"start_time\":0.75,\"pitch\":65,\"duration\":0.25},{\"start_time\":1.25,\"pitch\":68,\"duration\":0.25},{\"start_time\":1.5,\"pitch\":70,\"duration\":0.25},{\"start_time\":2,\"pitch\":60,\"duration\":0.25},{\"start_time\":2.25,\"pitch\":62,\"duration\":0.25}]\"\n"
+					"presentation_rect" : [ 152.0, 0.0, 152.0, 104.0 ]
 				}
 
 			}
