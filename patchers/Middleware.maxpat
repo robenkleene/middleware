@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 542.0, 124.0, 1309.0, 874.0 ],
+		"rect" : [ 385.0, 124.0, 1026.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -155,7 +155,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 160.0, 218.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 32.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 104.0, 16.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -185,7 +185,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 224.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 32.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 104.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -226,7 +226,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 104.0, 216.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 32.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 128.0, 16.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -309,7 +309,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 200.0, 320.0, 152.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 56.0, 152.0, 96.0 ],
+					"presentation_rect" : [ 0.0, 40.0, 152.0, 112.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -326,7 +326,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 248.0, 216.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Dict", "Log" ],
@@ -495,7 +495,7 @@
 				"box" : 				{
 					"decodemode" : 1,
 					"id" : "obj-29",
-					"legend" : "Drop JavaScript Here!",
+					"legend" : "Drop",
 					"maxclass" : "live.drop",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -503,7 +503,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 464.0, 96.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 96.0, 24.0 ],
+					"presentation_rect" : [ 104.0, 0.0, 48.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
