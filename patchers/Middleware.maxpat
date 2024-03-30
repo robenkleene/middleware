@@ -382,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 152.0, 63.0, 20.0 ],
+					"patching_rect" : [ 472.0, 152.0, 63.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -394,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 184.0, 32.0, 20.0 ],
+					"patching_rect" : [ 472.0, 184.0, 32.0, 20.0 ],
 					"text" : "error"
 				}
 
@@ -605,7 +605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 456.0, 248.0, 29.5, 20.0 ],
+					"patching_rect" : [ 472.0, 248.0, 29.5, 20.0 ],
 					"text" : "t b s"
 				}
 
@@ -617,7 +617,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 216.0, 86.0, 20.0 ],
+					"patching_rect" : [ 472.0, 216.0, 86.0, 20.0 ],
 					"text" : "prepend append"
 				}
 
