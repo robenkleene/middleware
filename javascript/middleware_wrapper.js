@@ -3,6 +3,7 @@ autowatch = 1;
 
 // Inlets & Outlets
 inlets = 1;
+outlets = 1;
 
 // External Dependencies
 include("middleware_euclidean");
@@ -29,9 +30,10 @@ function bang() {
   var notes = distribute(euclidean, division, scale, durations);
   var d = new Dict("output");
   d.setparse("notes", notes);
-  log(notes);
+  output(d.stringify());
 }
 
-function log(obj) {
-  post(JSON.stringify(obj));
+function output(text) {
+  outlet(0, text);
+  outlet(0, "\n");
 }
