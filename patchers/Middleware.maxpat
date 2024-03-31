@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 24.0, 240.0, 53.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -666,7 +678,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 544.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_wrapper.js",
+						"filename" : "middleware_wrapper",
 						"parameter_enable" : 0
 					}
 ,
@@ -1134,6 +1146,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
