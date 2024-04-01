@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 674.0, 100.0, 1102.0, 983.0 ],
+		"rect" : [ 592.0, 100.0, 1102.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -688,13 +688,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 128.0, 336.0, 19.0, 20.0 ],
+					"patching_rect" : [ 128.0, 336.0, 121.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "",
+						"filename" : "middleware_template",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js"
+					"text" : "js middleware_template"
 				}
 
 			}
@@ -1072,6 +1072,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_template.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
