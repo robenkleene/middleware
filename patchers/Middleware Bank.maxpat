@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 165.0, 1102.0, 727.0 ],
+		"rect" : [ 34.0, 165.0, 1480.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1032.0, 64.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"Drop" : [ "" ],
+						"Export" : [ 0.0 ],
+						"live.dial" : [ 0.0 ],
+						"live.dial[1]" : [ 0.0 ],
+						"live.dial[2]" : [ 0.0 ],
+						"live.dial[3]" : [ 0.0 ],
+						"live.dial[4]" : [ 0.0 ],
+						"live.dial[5]" : [ 0.0 ],
+						"live.dial[6]" : [ 0.0 ],
+						"live.dial[7]" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u087009516"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",

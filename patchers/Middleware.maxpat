@@ -40,6 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 576.0, 8.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"Edit" : [ 0.0 ],
+						"Run" : [ 0.0 ],
+						"Tab" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u340011405"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -259,7 +278,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 32.0, 41.0, 20.0 ],
+					"patching_rect" : [ 496.0, 40.0, 41.0, 20.0 ],
 					"text" : "r #0log"
 				}
 
@@ -312,7 +331,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Middleware Bank.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -391,7 +410,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 0.0, 63.0, 20.0 ],
+					"patching_rect" : [ 456.0, 8.0, 63.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -403,7 +422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 32.0, 32.0, 20.0 ],
+					"patching_rect" : [ 456.0, 40.0, 32.0, 20.0 ],
 					"text" : "error"
 				}
 
@@ -507,7 +526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 456.0, 88.0, 29.5, 20.0 ],
+					"patching_rect" : [ 456.0, 96.0, 29.5, 20.0 ],
 					"text" : "t b s"
 				}
 
@@ -519,7 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 64.0, 86.0, 20.0 ],
+					"patching_rect" : [ 456.0, 72.0, 86.0, 20.0 ],
 					"text" : "prepend append"
 				}
 
@@ -533,7 +552,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.0, 480.0, 121.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_template.js",
+						"filename" : "middleware_template",
 						"parameter_enable" : 0
 					}
 ,
