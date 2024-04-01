@@ -49,14 +49,14 @@
 					"restore" : 					{
 						"Drop" : [ "" ],
 						"Export" : [ 0.0 ],
-						"live.dial" : [ 0.0 ],
-						"live.dial[1]" : [ 0.0 ],
-						"live.dial[2]" : [ 0.0 ],
-						"live.dial[3]" : [ 0.0 ],
-						"live.dial[4]" : [ 0.0 ],
-						"live.dial[5]" : [ 0.0 ],
-						"live.dial[6]" : [ 0.0 ],
-						"live.dial[7]" : [ 0.0 ]
+						"dial1" : [ 0.0 ],
+						"dial2" : [ 0.0 ],
+						"dial3" : [ 0.0 ],
+						"dial4" : [ 0.0 ],
+						"dial5" : [ 0.0 ],
+						"dial6" : [ 0.0 ],
+						"dial7" : [ 0.0 ],
+						"dial8" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -99,7 +99,7 @@
 
 					}
 ,
-					"varname" : "live.dial"
+					"varname" : "dial8"
 				}
 
 			}
@@ -125,7 +125,7 @@
 
 					}
 ,
-					"varname" : "live.dial[1]"
+					"varname" : "dial7"
 				}
 
 			}
@@ -151,7 +151,7 @@
 
 					}
 ,
-					"varname" : "live.dial[2]"
+					"varname" : "dial6"
 				}
 
 			}
@@ -177,7 +177,7 @@
 
 					}
 ,
-					"varname" : "live.dial[3]"
+					"varname" : "dial5"
 				}
 
 			}
@@ -203,7 +203,7 @@
 
 					}
 ,
-					"varname" : "live.dial[4]"
+					"varname" : "dial4"
 				}
 
 			}
@@ -229,7 +229,7 @@
 
 					}
 ,
-					"varname" : "live.dial[5]"
+					"varname" : "dial3"
 				}
 
 			}
@@ -255,7 +255,7 @@
 
 					}
 ,
-					"varname" : "live.dial[6]"
+					"varname" : "dial2"
 				}
 
 			}
@@ -281,7 +281,7 @@
 
 					}
 ,
-					"varname" : "live.dial[7]"
+					"varname" : "dial1"
 				}
 
 			}
