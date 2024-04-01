@@ -272,7 +272,7 @@
 					"presentation_rect" : [ 312.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "1",
+							"parameter_longname" : "dial1",
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "1",
 							"parameter_type" : 0,
@@ -557,7 +557,7 @@
 			"obj-14" : [ "7", "7", 0 ],
 			"obj-28" : [ "Export", "Export", 0 ],
 			"obj-29" : [ "Drop", "live.drop", 0 ],
-			"obj-6" : [ "1", "1", 0 ],
+			"obj-6" : [ "dial1", "1", 0 ],
 			"obj-7" : [ "2", "2", 0 ],
 			"obj-8" : [ "3", "3", 0 ],
 			"parameterbanks" : 			{

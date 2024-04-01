@@ -11,6 +11,9 @@ include("middleware_intervals");
 include("middleware_scales");
 include("middleware_distribute");
 
+var d = new Dict("output");
+var c = new Dict("context");
+
 var tabs = this.patcher.getnamed('tabs').subpatcher();
 var baseNoteObj = tabs.getnamed('dial1');
 baseNoteObj.message('set', 60);
@@ -39,7 +42,6 @@ function bang() {
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
-	var d = new Dict("output");;
 	d.parse(notesJSON);
 	output(notesJSON);
 	output(d.stringify());
