@@ -15,17 +15,24 @@ var d = new Dict("output");
 var c = new Dict("context");
 
 var tabs = this.patcher.getnamed('tabs').subpatcher();
-var baseNoteObj = tabs.getnamed('dial1');
+
+var stepsObj = tabs.getnamed('dial1');
+stepsObj.message('set', 8);
+var pulsesObj = tabs.getnamed('dial2');
+pulsesObj.message('set', 8);
+var baseNoteObj = tabs.getnamed('dial3');
 baseNoteObj.message('set', 60);
 
+var steps = 8;
+var pulses = steps;
 var baseNote = 60;
 var minNote = 1;
 var maxNote = 128;
-var division = 0.25;
-var duration = division;
-var steps = 8;
-var pulses = steps;
 var velocity = 127;
+var duration = division;
+var division = 0.25;
+
+
 
 function bang() {
 	var intervals = getIntervals("minor");
