@@ -338,6 +338,7 @@
 					"patching_rect" : [ 256.0, 128.0, 152.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 16.0, 152.0, 136.0 ],
+					"varname" : "tabs",
 					"viewvisibility" : 1
 				}
 
@@ -552,7 +553,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.0, 480.0, 121.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "middleware_template",
 						"parameter_enable" : 0
 					}
 ,
@@ -859,13 +859,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_template.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

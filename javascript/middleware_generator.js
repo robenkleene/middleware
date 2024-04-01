@@ -11,6 +11,9 @@ include("middleware_intervals");
 include("middleware_scales");
 include("middleware_distribute");
 
+var tabs = this.patcher.getnamed('tabs').subpatcher();
+var baseNoteObj = tabs.getnamed('1');
+baseNoteObj.message('set', 60);
 
 var baseNote = 60;
 var minNote = 1;
