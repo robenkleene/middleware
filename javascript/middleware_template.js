@@ -10,7 +10,6 @@ function bang() {
 	var notesJSON = JSON.stringify(notes);
 	var d = new Dict("output");;
 	d.parse(notesJSON);
-	d.set("bank", ["one", "two", "three", "four", "five", "six", "seven", "eight"]);
 	output(notesJSON);
 	output(d.stringify());
 }
