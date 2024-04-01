@@ -220,7 +220,7 @@
 					"name" : "Middleware Bank.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -456.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.0, 216.0, 152.0, 96.0 ],
 					"presentation" : 1,
@@ -322,7 +322,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 408.0, 30.0, 30.0 ]
+					"patching_rect" : [ 96.0, 432.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -336,18 +336,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 16.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 368.0, 29.5, 20.0 ],
-					"text" : "gate"
 				}
 
 			}
@@ -459,18 +447,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 144.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -8.0, 0.0, 160.0, 16.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -558,7 +534,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
@@ -577,13 +553,6 @@
 					"destination" : [ "obj-4", 0 ],
 					"order" : 2,
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
