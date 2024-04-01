@@ -22,6 +22,12 @@ var pulsesObj = tabs.getnamed('dial2');
 pulsesObj.message('set', 8);
 var baseNoteObj = tabs.getnamed('dial3');
 baseNoteObj.message('set', 60);
+var minNoteObj = tabs.getnamed('dial4');
+minNoteObj.message('set', 1);
+var maxNoteObj = tabs.getnamed('dial5');
+maxNoteObj.message('set', 127);
+var velocityObj = tabs.getnamed('dial6');
+velocityObj.message('set', 127);
 
 var steps = 8;
 var pulses = steps;
@@ -29,10 +35,8 @@ var baseNote = 60;
 var minNote = 1;
 var maxNote = 128;
 var velocity = 127;
-var duration = division;
 var division = 0.25;
-
-
+var duration = division;
 
 function bang() {
 	var intervals = getIntervals("minor");
@@ -51,7 +55,7 @@ function bang() {
 	var notesJSON = JSON.stringify(notes);
 	d.parse(notesJSON);
 	output(notesJSON);
-	output(d.stringify());
+	output(c.stringify());
 }
 
 function list() {
