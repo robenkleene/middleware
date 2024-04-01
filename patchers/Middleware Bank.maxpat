@@ -90,9 +90,9 @@
 					"presentation_rect" : [ 408.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "8",
+							"parameter_longname" : "Dial 8",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "8",
+							"parameter_shortname" : "Dial 8",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -116,9 +116,9 @@
 					"presentation_rect" : [ 376.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "7",
+							"parameter_longname" : "Dial 7",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "7",
+							"parameter_shortname" : "Dial 7",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -139,12 +139,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 800.0, 288.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 8.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 344.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "6",
+							"parameter_longname" : "Dial 6",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "6",
+							"parameter_shortname" : "Dial 6",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -165,12 +165,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 760.0, 288.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 344.0, 72.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 312.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "5",
+							"parameter_longname" : "Dial 5",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "5",
+							"parameter_shortname" : "Dial 5",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -191,12 +191,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 880.0, 240.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 72.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 408.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "4",
+							"parameter_longname" : "Dial 4",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "4",
+							"parameter_shortname" : "Dial 4",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -220,9 +220,9 @@
 					"presentation_rect" : [ 376.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "3",
+							"parameter_longname" : "Dial 3",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "3",
+							"parameter_shortname" : "Dial 3",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -246,9 +246,9 @@
 					"presentation_rect" : [ 344.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "2",
+							"parameter_longname" : "Dial 2",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "2",
+							"parameter_shortname" : "Dial 2",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -272,9 +272,9 @@
 					"presentation_rect" : [ 312.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial1",
+							"parameter_longname" : "Dial 1",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "1",
+							"parameter_shortname" : "Dial 1",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -550,16 +550,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10" : [ "6", "6", 0 ],
-			"obj-11" : [ "5", "5", 0 ],
-			"obj-12" : [ "4", "4", 0 ],
-			"obj-13" : [ "8", "8", 0 ],
-			"obj-14" : [ "7", "7", 0 ],
+			"obj-10" : [ "Dial 6", "Dial 6", 0 ],
+			"obj-11" : [ "Dial 5", "Dial 5", 0 ],
+			"obj-12" : [ "Dial 4", "Dial 4", 0 ],
+			"obj-13" : [ "Dial 8", "Dial 8", 0 ],
+			"obj-14" : [ "Dial 7", "Dial 7", 0 ],
 			"obj-28" : [ "Export", "Export", 0 ],
 			"obj-29" : [ "Drop", "live.drop", 0 ],
-			"obj-6" : [ "dial1", "1", 0 ],
-			"obj-7" : [ "2", "2", 0 ],
-			"obj-8" : [ "3", "3", 0 ],
+			"obj-6" : [ "Dial 1", "Dial 1", 0 ],
+			"obj-7" : [ "Dial 2", "Dial 2", 0 ],
+			"obj-8" : [ "Dial 3", "Dial 3", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
