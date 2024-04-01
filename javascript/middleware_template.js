@@ -6,7 +6,7 @@ inlets = 1;
 outlets = 1;
 
 function bang() {
-	var notes = { notes: [] };
+	var notes = { notes: [ { pitch: 60, start_time: 0, duration: 0.25 } ] };
 	var notesJSON = JSON.stringify(notes);
 	var d = new Dict("output");;
 	d.parse(notesJSON);
