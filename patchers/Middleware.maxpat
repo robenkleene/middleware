@@ -209,7 +209,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.0, 216.0, 152.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 40.0, 152.0, 112.0 ],
+					"presentation_rect" : [ 0.0, 24.0, 152.0, 128.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -226,12 +226,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 344.0, 128.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 88.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Dict", "Log", "Files" ],
+							"parameter_enum" : [ "Dict", "Log", "Dials", "Files" ],
 							"parameter_longname" : "Tab",
-							"parameter_mmax" : 2,
+							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
@@ -372,7 +372,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 16.0, 304.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 0.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 112.0, 0.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -440,7 +440,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 192.0, 296.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 88.0, 0.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -760,9 +760,16 @@
 			"obj-19" : [ "Debug", "Debug", 0 ],
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-33" : [ "Edit", "Edit", 0 ],
+			"obj-4::obj-10" : [ "6", "6", 0 ],
+			"obj-4::obj-11" : [ "5", "5", 0 ],
+			"obj-4::obj-12" : [ "4", "4", 0 ],
+			"obj-4::obj-13" : [ "8", "8", 0 ],
+			"obj-4::obj-14" : [ "7", "7", 0 ],
 			"obj-4::obj-28" : [ "Export", "Export", 0 ],
 			"obj-4::obj-29" : [ "Drop", "live.drop", 0 ],
-			"obj-4::obj-37" : [ "Import", "Import", 0 ],
+			"obj-4::obj-6" : [ "1", "1", 0 ],
+			"obj-4::obj-7" : [ "2", "2", 0 ],
+			"obj-4::obj-8" : [ "3", "3", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

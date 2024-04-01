@@ -40,6 +40,206 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 536.0, 370.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.0, 56.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "8",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "8",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 496.0, 370.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 376.0, 56.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "7",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "7",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 573.0, 321.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.0, 8.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "6",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "6",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 533.0, 321.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 336.0, 56.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "5",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "5",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 493.0, 321.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 296.0, 56.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "4",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "4",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 580.0, 275.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 376.0, 8.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "3",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "3",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 539.0, 275.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 336.0, 8.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "2",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "2",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 800.0, 360.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 296.0, 8.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "1",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "1",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -86,7 +286,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 744.0, 176.0, 280.0, 256.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.0, 16.0, 152.0, 88.0 ],
+					"presentation_rect" : [ 448.0, 16.0, 152.0, 88.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -113,7 +313,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 848.0, 456.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 344.0, 0.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 448.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -267,8 +467,16 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-10" : [ "6", "6", 0 ],
+			"obj-11" : [ "5", "5", 0 ],
+			"obj-12" : [ "4", "4", 0 ],
+			"obj-13" : [ "8", "8", 0 ],
+			"obj-14" : [ "7", "7", 0 ],
 			"obj-28" : [ "Export", "Export", 0 ],
 			"obj-29" : [ "Drop", "live.drop", 0 ],
+			"obj-6" : [ "1", "1", 0 ],
+			"obj-7" : [ "2", "2", 0 ],
+			"obj-8" : [ "3", "3", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
