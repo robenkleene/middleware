@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 592.0, 100.0, 1394.0, 1168.0 ],
+		"rect" : [ 148.0, 100.0, 908.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -99,16 +99,16 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button",
+							"parameter_longname" : "Run",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.button",
+							"parameter_shortname" : "Run",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.button"
+					"varname" : "Run"
 				}
 
 			}
@@ -759,7 +759,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14" : [ "live.button", "live.button", 0 ],
+			"obj-14" : [ "Run", "Run", 0 ],
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-33" : [ "Edit", "Edit", 0 ],
 			"obj-4::obj-10" : [ "6", "6", 0 ],
