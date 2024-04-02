@@ -16,47 +16,50 @@ var c = new Dict("context");
 
 var tabs = this.patcher.getnamed('tabs').subpatcher();
 
-var stepsDial = tabs.getnamed('dial1');
-stepsDial.message('set', 8);
-var pulsesDial = tabs.getnamed('dial2');
-pulsesDial.message('set', 8);
+var pulsesDial = tabs.getnamed('dial1');
+var stepsDial = tabs.getnamed('dial2');
 var baseNoteDial = tabs.getnamed('dial3');
-baseNoteDial.message('set', 60);
 var minNoteDial = tabs.getnamed('dial4');
-minNoteDial.message('set', 1);
 var maxNoteDial = tabs.getnamed('dial5');
-maxNoteDial.message('set', 127);
 var velocityDial = tabs.getnamed('dial6');
-velocityDial.message('set', 127);
 
 function bang() {
-	var steps = stepsDial.getvalueof();
 	var pulses = pulsesDial.getvalueof();
+	var steps = stepsDial.getvalueof();
 	var baseNote = baseNoteDial.getvalueof();
 	var minNote = minNoteDial.getvalueof();
 	var maxNote = maxNoteDial.getvalueof();
 	var velocity = velocityDial.getvalueof();
-
-	var division = c.get("grid::interval");
-	var duration = division;
-
-	var intervals = getIntervals("minor");
-	var scale = generateScale(intervals, intervals.length + 1, baseNote, minNote, maxNote);
-	var durations = Array(steps);
-	for(var i = 0; i < durations.length; i++) {
-		durations[i] = duration;
-	}
-	var velocities = Array(steps);
+	var velocities = Array(pulses);
 	for(var i = 0; i < velocities.length; i++) {
 		velocities[i] = velocity;
 	}
-	var euclidean = generateEuclidean(steps, pulses, durations);
+
+	var division = c.get("grid::interval");
+	var duration = division;
+	var durations = Array(pulses);
+	for(var i = 0; i < durations.length; i++) {
+		durations[i] = duration;
+	}
+
+	var intervals = getIntervals("minor");
+	var scale = generateScale(intervals, intervals.length + 1, baseNote, minNote, maxNote);
+	var euclidean = generateEuclidean(steps, pulses);
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	d.parse(notesJSON);
 	output(notesJSON);
 	output(c.stringify());
+}
+
+function loadbang() {
+	baseNoteDial.message('set', 60);
+	maxNoteDial.message('set', 127);
+	minNoteDial.message('set', 1);
+	pulsesDial.message('set', 8);
+	stepsDial.message('set', 8);
+	velocityDial.message('set', 127);
 }
 
 function output(text) {
