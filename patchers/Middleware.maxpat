@@ -487,25 +487,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 439.0, 46.0, 20.0 ],
-					"text" : "compile"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 272.0, 360.0, 30.0, 20.0 ],
-					"text" : "t b b"
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 272.0, 360.0, 21.0, 20.0 ],
+					"text" : "t b"
 				}
 
 			}
@@ -784,22 +772,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-39", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-41", 0 ]
 				}
 
 			}
@@ -871,16 +845,16 @@
 			"obj-14" : [ "Run", "Run", 0 ],
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-33" : [ "Edit", "Edit", 0 ],
-			"obj-4::obj-10" : [ "6", "6", 0 ],
-			"obj-4::obj-11" : [ "5", "5", 0 ],
-			"obj-4::obj-12" : [ "4", "4", 0 ],
-			"obj-4::obj-13" : [ "8", "8", 0 ],
-			"obj-4::obj-14" : [ "7", "7", 0 ],
+			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],
+			"obj-4::obj-11" : [ "5", "Dial 5", 0 ],
+			"obj-4::obj-12" : [ "4", "Dial 4", 0 ],
+			"obj-4::obj-13" : [ "8", "Dial 8", 0 ],
+			"obj-4::obj-14" : [ "7", "Dial 7", 0 ],
 			"obj-4::obj-28" : [ "Export", "Export", 0 ],
 			"obj-4::obj-29" : [ "Drop", "live.drop", 0 ],
-			"obj-4::obj-6" : [ "1", "1", 0 ],
-			"obj-4::obj-7" : [ "2", "2", 0 ],
-			"obj-4::obj-8" : [ "3", "3", 0 ],
+			"obj-4::obj-6" : [ "1", "Dial 1", 0 ],
+			"obj-4::obj-7" : [ "2", "Dial 2", 0 ],
+			"obj-4::obj-8" : [ "3", "Dial 3", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -891,8 +865,36 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-4::obj-10" : 				{
+					"parameter_longname" : "6"
+				}
+,
+				"obj-4::obj-11" : 				{
+					"parameter_longname" : "5"
+				}
+,
+				"obj-4::obj-12" : 				{
+					"parameter_longname" : "4"
+				}
+,
+				"obj-4::obj-13" : 				{
+					"parameter_longname" : "8"
+				}
+,
+				"obj-4::obj-14" : 				{
+					"parameter_longname" : "7"
+				}
+,
 				"obj-4::obj-6" : 				{
 					"parameter_longname" : "1"
+				}
+,
+				"obj-4::obj-7" : 				{
+					"parameter_longname" : "2"
+				}
+,
+				"obj-4::obj-8" : 				{
+					"parameter_longname" : "3"
 				}
 
 			}
