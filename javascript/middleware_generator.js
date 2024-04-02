@@ -16,29 +16,30 @@ var c = new Dict("context");
 
 var tabs = this.patcher.getnamed('tabs').subpatcher();
 
-var stepsObj = tabs.getnamed('dial1');
-stepsObj.message('set', 8);
-var pulsesObj = tabs.getnamed('dial2');
-pulsesObj.message('set', 8);
-var baseNoteObj = tabs.getnamed('dial3');
-baseNoteObj.message('set', 60);
-var minNoteObj = tabs.getnamed('dial4');
-minNoteObj.message('set', 1);
-var maxNoteObj = tabs.getnamed('dial5');
-maxNoteObj.message('set', 127);
-var velocityObj = tabs.getnamed('dial6');
-velocityObj.message('set', 127);
-
-var steps = 8;
-var pulses = steps;
-var baseNote = 60;
-var minNote = 1;
-var maxNote = 128;
-var velocity = 127;
-var division = 0.25;
-var duration = division;
+var stepsDial = tabs.getnamed('dial1');
+stepsDial.message('set', 8);
+var pulsesDial = tabs.getnamed('dial2');
+pulsesDial.message('set', 8);
+var baseNoteDial = tabs.getnamed('dial3');
+baseNoteDial.message('set', 60);
+var minNoteDial = tabs.getnamed('dial4');
+minNoteDial.message('set', 1);
+var maxNoteDial = tabs.getnamed('dial5');
+maxNoteDial.message('set', 127);
+var velocityDial = tabs.getnamed('dial6');
+velocityDial.message('set', 127);
 
 function bang() {
+	var steps = stepsDial.getvalueof();
+	var pulses = pulsesDial.getvalueof();
+	var baseNote = baseNoteDial.getvalueof();
+	var minNote = minNoteDial.getvalueof();
+	var maxNote = maxNoteDial.getvalueof();
+	var velocity = velocityDial.getvalueof();
+
+	var division = c.get("grid::interval");
+	var duration = division;
+
 	var intervals = getIntervals("minor");
 	var scale = generateScale(intervals, intervals.length + 1, baseNote, minNote, maxNote);
 	var durations = Array(steps);
@@ -56,9 +57,6 @@ function bang() {
 	d.parse(notesJSON);
 	output(notesJSON);
 	output(c.stringify());
-}
-
-function list() {
 }
 
 function output(text) {
