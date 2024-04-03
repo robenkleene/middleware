@@ -27,14 +27,13 @@ stepsDial.message('set', 8);
 velocityDial.message('set', 127);
 
 function bang() {
-  var pulses = pulsesDial.getvalueof();
-  var steps = stepsDial.getvalueof();
-  var baseNote = baseNoteDial.getvalueof();
-  var minNote = minNoteDial.getvalueof();
-  var maxNote = maxNoteDial.getvalueof();
-  var velocity = velocityDial.getvalueof();
+	var pulses = pulsesDial.getvalueof();
+	var steps = stepsDial.getvalueof();
+	var baseNote = baseNoteDial.getvalueof();
+	var minNote = minNoteDial.getvalueof();
+	var maxNote = maxNoteDial.getvalueof();
+	var velocity = velocityDial.getvalueof();
 	var velocities = Array(pulses);
-
 
 	for (var i = 0; i < velocities.length; i++) {
 		velocities[i] = velocity;
@@ -54,11 +53,11 @@ function bang() {
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	d.parse(notesJSON);
-	output(notesJSON);
-	output(c.stringify());
+	print(notesJSON);
+	print(c.stringify());
 }
 
-function output(text) {
+function print(text) {
 	outlet(0, text);
 	outlet(0, "\n");
 }
