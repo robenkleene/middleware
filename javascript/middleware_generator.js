@@ -51,7 +51,7 @@ function bang() {
 
 	var intervals = getIntervals("minor");
 	var scale = generateScale(intervals, intervals.length + 1, baseNote, minNote, maxNote);
-	var euclidean = generateEuclidean(steps, pulses);
+	var euclidean = generateEuclidean(pulses, steps);
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
