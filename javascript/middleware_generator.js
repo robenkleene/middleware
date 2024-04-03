@@ -1,10 +1,6 @@
 // Re-compile the file automatically when it changes
 autowatch = 1;
 
-// Inlets & Outlets
-inlets = 1;
-outlets = 1;
-
 // External Dependencies
 include("middleware_euclidean");
 include("middleware_intervals");
@@ -38,6 +34,8 @@ function bang() {
   var maxNote = maxNoteDial.getvalueof();
   var velocity = velocityDial.getvalueof();
 	var velocities = Array(pulses);
+
+
 	for (var i = 0; i < velocities.length; i++) {
 		velocities[i] = velocity;
 	}
