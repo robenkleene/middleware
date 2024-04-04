@@ -379,7 +379,7 @@
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "dict output"
+					"text" : "dict notes"
 				}
 
 			}

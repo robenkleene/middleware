@@ -4,8 +4,8 @@ autowatch = 1;
 function bang() {
 	var notes = { notes: [ { pitch: 60, start_time: 0, duration: 0.25 } ] };
 	var notesJSON = JSON.stringify(notes);
-	var d = new Dict("output");;
-	d.parse(notesJSON);
+	var n = new Dict("notes");;
+	n.parse(notesJSON);
 	output(notesJSON);
 	output(d.stringify());
 }

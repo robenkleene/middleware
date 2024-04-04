@@ -7,7 +7,7 @@ include("middleware_intervals");
 include("middleware_scales");
 include("middleware_distribute");
 
-var d = new Dict("output");
+var n = new Dict("notes");
 var c = new Dict("context");
 
 var tabs = this.patcher.getnamed('tabs').subpatcher();
@@ -52,7 +52,7 @@ function bang() {
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
-	d.parse(notesJSON);
+	n.parse(notesJSON);
 	// print(notesJSON);
 	// print(c.stringify());
 }
