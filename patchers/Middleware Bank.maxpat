@@ -228,7 +228,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "bang on dial change",
 					"id" : "obj-20",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -541,7 +541,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "File messages",
 					"id" : "obj-5",
 					"index" : 0,
 					"maxclass" : "outlet",
