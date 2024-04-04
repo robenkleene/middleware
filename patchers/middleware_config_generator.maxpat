@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 295.0, 777.0, 571.0 ],
+		"rect" : [ 342.0, 295.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"data" : 					{
+						"grid" : 						{
+							"interval" : 0.25
+						}
+
+					}
+,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"patching_rect" : [ 48.0, 312.0, 151.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"legacy" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict testcontext @embed 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "bang: Test run",
 					"id" : "obj-9",
@@ -78,24 +104,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 312.0, 150.0, 74.0 ],
-					"text" : "Minimum context dictionary required for the default `middleware_generator` script to run"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 312.0, 120.0, 22.0 ],
-					"text" : "set grid::interval 0.25"
+					"patching_rect" : [ 208.0, 312.0, 150.0, 87.0 ],
+					"text" : "Minimum context dictionary required for the default `middleware_generator` script to run. Double click to edit."
 				}
 
 			}
@@ -270,7 +284,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -283,7 +297,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
