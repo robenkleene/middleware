@@ -129,7 +129,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 304.0, 60.0, 20.0 ],
+					"patching_rect" : [ 312.0, 296.0, 60.0, 20.0 ],
 					"text" : "r #0dictout"
 				}
 
