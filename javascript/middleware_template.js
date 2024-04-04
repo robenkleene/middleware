@@ -6,8 +6,8 @@ function bang() {
 	var notesJSON = JSON.stringify(notes);
 	var n = new Dict("notes");;
 	n.parse(notesJSON);
-	output(notesJSON);
-	output(d.stringify());
+	// output(notesJSON);
+	// output(n.stringify());
 }
 
 function output(text) {
