@@ -27,14 +27,14 @@ stepsDial.message('set', 8);
 velocityDial.message('set', 127);
 
 function bang() {
-	var pulses = pulsesDial.getvalueof();
-	var steps = stepsDial.getvalueof();
-	var baseNote = baseNoteDial.getvalueof();
-	var minNote = minNoteDial.getvalueof();
-	var maxNote = maxNoteDial.getvalueof();
-	var velocity = velocityDial.getvalueof();
-	var velocities = Array(pulses);
+	var pulses = parseInt(pulsesDial.getvalueof());
+	var steps = parseInt(stepsDial.getvalueof());
+	var baseNote = parseInt(baseNoteDial.getvalueof());
+	var minNote = parseInt(minNoteDial.getvalueof());
+	var maxNote = parseInt(maxNoteDial.getvalueof());
+	var velocity = parseInt(velocityDial.getvalueof());
 
+	var velocities = Array(pulses);
 	for (var i = 0; i < velocities.length; i++) {
 		velocities[i] = velocity;
 	}
@@ -47,14 +47,14 @@ function bang() {
 	}
 
 	var intervals = getIntervals("minor");
-	var scale = generateScale(intervals, intervals.length + 1, baseNote, minNote, maxNote);
+	var scale = generateScale(intervals, pulses, baseNote, minNote, maxNote);
 	var euclidean = generateEuclidean(pulses, steps);
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	d.parse(notesJSON);
-	print(notesJSON);
-	print(c.stringify());
+	// print(notesJSON);
+	// print(c.stringify());
 }
 
 function print(text) {
