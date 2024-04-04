@@ -762,6 +762,7 @@
 			"obj-4::obj-12" : [ "4", "Dial 4", 0 ],
 			"obj-4::obj-13" : [ "8", "Dial 8", 0 ],
 			"obj-4::obj-14" : [ "7", "Dial 7", 0 ],
+			"obj-4::obj-18" : [ "Compile", "Compile", 0 ],
 			"obj-4::obj-28" : [ "Export", "Export", 0 ],
 			"obj-4::obj-29" : [ "Drop", "live.drop", 0 ],
 			"obj-4::obj-6" : [ "1", "Dial 1", 0 ],

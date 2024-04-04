@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 165.0, 1059.0, 727.0 ],
+		"rect" : [ 34.0, 165.0, 1019.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -65,7 +65,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Export[1]",
+							"parameter_longname" : "Compile",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Compile",
@@ -598,7 +598,7 @@
 			"obj-12" : [ "Dial 4", "Dial 4", 0 ],
 			"obj-13" : [ "Dial 8", "Dial 8", 0 ],
 			"obj-14" : [ "Dial 7", "Dial 7", 0 ],
-			"obj-18" : [ "Export[1]", "Compile", 0 ],
+			"obj-18" : [ "Compile", "Compile", 0 ],
 			"obj-28" : [ "Export", "Export", 0 ],
 			"obj-29" : [ "Drop", "live.drop", 0 ],
 			"obj-6" : [ "Dial 1", "Dial 1", 0 ],
