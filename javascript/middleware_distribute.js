@@ -1,5 +1,5 @@
 var distribute;
-distribute = function(euclidean, division, scale, durations) {
+distribute = function(euclidean, division, scale, durations, velocities) {
   var notes = [];
   startTime = 0
   for (var i = 0; i < euclidean.length; i++) {
@@ -8,7 +8,8 @@ distribute = function(euclidean, division, scale, durations) {
       var note = {
         start_time: startTime,
         pitch: scale[i % scale.length],
-        duration: durations[i % durations.length]
+        duration: durations[i % durations.length],
+        velocity: velocities[i % velocities.length]
       };
       notes.push(note);
     }
