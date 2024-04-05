@@ -1,11 +1,8 @@
 // Re-compile the file automatically when it changes
 autowatch = 1;
 
-// External Dependencies
 include("middleware_euclidean");
-include("middleware_intervals");
-include("middleware_scales");
-include("middleware_distribute");
+include("middleware_transform");
 
 var n = new Dict("notes");
 var c = new Dict("context");
@@ -14,8 +11,8 @@ var tabs = this.patcher.getnamed('tabs').subpatcher();
 
 var pulsesDial = tabs.getnamed('dial1');
 var stepsDial = tabs.getnamed('dial2');
-var minNoteDial = tabs.getnamed('dial5');
-var maxNoteDial = tabs.getnamed('dial6');
+var minNoteDial = tabs.getnamed('dial3');
+var maxNoteDial = tabs.getnamed('dial4');
 
 maxNoteDial.message('set', 127);
 minNoteDial.message('set', 1);

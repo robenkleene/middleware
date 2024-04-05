@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 220.0, 1617.0, 863.0 ],
+		"rect" : [ 927.0, 538.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 184.0, 172.0, 22.0 ],
+					"patching_rect" : [ 376.0, 136.0, 172.0, 22.0 ],
 					"text" : "text middleware_transformer.js"
 				}
 
@@ -151,18 +151,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 160.0, 160.0, 22.0 ],
-					"text" : "text middleware_distribute.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -180,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 136.0, 160.0, 22.0 ],
+					"patching_rect" : [ 376.0, 112.0, 160.0, 22.0 ],
 					"text" : "text middleware_bjorklund.js"
 				}
 
@@ -192,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 112.0, 159.0, 22.0 ],
+					"patching_rect" : [ 376.0, 88.0, 159.0, 22.0 ],
 					"text" : "text middleware_toussaint.js"
 				}
 
@@ -204,7 +192,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 88.0, 167.0, 22.0 ],
+					"patching_rect" : [ 376.0, 64.0, 167.0, 22.0 ],
 					"text" : "text middleware_randomize.js"
 				}
 
@@ -218,18 +206,6 @@
 					"outlettype" : [ "", "bang", "int" ],
 					"patching_rect" : [ 376.0, 40.0, 163.0, 22.0 ],
 					"text" : "text middleware_euclidean.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 64.0, 145.0, 22.0 ],
-					"text" : "text middleware_scales.js"
 				}
 
 			}
