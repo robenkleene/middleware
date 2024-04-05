@@ -1,5 +1,5 @@
 var transform;
-transform = function(euclidean, division, notes, durations, min, max) {
+transform = function(euclidean, division, notes, min, max) {
 	var notes = [];
 	startTime = 0
 	for (var i = 0; i < euclidean.length; i++) {

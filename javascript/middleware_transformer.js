@@ -25,15 +25,9 @@ function bang() {
 	var minNote = parseInt(minNoteDial.getvalueof());
 	var maxNote = parseInt(maxNoteDial.getvalueof());
 
-	var duration = division;
-	var durations = Array(pulses);
-	for (var i = 0; i < durations.length; i++) {
-		durations[i] = duration;
-	}
-
 	var notes = n.get("notes");
 	var euclidean = generateEuclidean(pulses, steps);
-	var notesArr = transform(euclidean, division, notes, durations, minNote, maxNote);
+	var notesArr = transform(euclidean, division, notes, minNote, maxNote);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	n.parse(notesJSON);
