@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 295.0, 1617.0, 863.0 ],
+		"rect" : [ 77.0, 220.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -180,18 +180,6 @@
 					}
 ,
 					"text" : "js middleware_bjorklund"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 208.0, 169.0, 22.0 ],
-					"text" : "text middleware_intervals.json"
 				}
 
 			}

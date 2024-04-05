@@ -1,7 +1,7 @@
 OCTAVE_SIZE = 12;
 
 var generateScale;
-generateScale = function(intervals, stepCount, base, min, max) {
+generateScale = function(intervals, stepCount, octave, rootNote, semitone, min, max) {
 	var note = base;
 	if (note < min) {
 		note = min;

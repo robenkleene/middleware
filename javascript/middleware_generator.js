@@ -14,22 +14,25 @@ var tabs = this.patcher.getnamed('tabs').subpatcher();
 
 var pulsesDial = tabs.getnamed('dial1');
 var stepsDial = tabs.getnamed('dial2');
-var baseNoteDial = tabs.getnamed('dial3');
-var minNoteDial = tabs.getnamed('dial4');
-var maxNoteDial = tabs.getnamed('dial5');
-var velocityDial = tabs.getnamed('dial6');
+var octaveDial = tabs.getnamed('dial3');
+var semitoneDial = tabs.getnamed('dial4');
+var minNoteDial = tabs.getnamed('dial5');
+var maxNoteDial = tabs.getnamed('dial6');
+var velocityDial = tabs.getnamed('dial7');
 
-baseNoteDial.message('set', 60);
 maxNoteDial.message('set', 127);
 minNoteDial.message('set', 1);
+octaveDial.message('set', 5);
 pulsesDial.message('set', 8);
+semitoneDial.message('set', 64);
 stepsDial.message('set', 8);
 velocityDial.message('set', 127);
 
 function bang() {
 	var pulses = parseInt(pulsesDial.getvalueof());
 	var steps = parseInt(stepsDial.getvalueof());
-	var baseNote = parseInt(baseNoteDial.getvalueof());
+	var octave = parseInt(octaveDial.getvalueof());
+	var semitone = parseInt(semitoneDial.getvalueof()) - 64;
 	var minNote = parseInt(minNoteDial.getvalueof());
 	var maxNote = parseInt(maxNoteDial.getvalueof());
 	var velocity = parseInt(velocityDial.getvalueof());
@@ -39,6 +42,8 @@ function bang() {
 		velocities[i] = velocity;
 	}
 
+	var rootNote = c.get("scale::root_note");
+	var intervals = c.get("scale::scale_intervals");
 	var division = c.get("grid::interval");
 	var duration = division;
 	var durations = Array(pulses);
@@ -46,15 +51,14 @@ function bang() {
 		durations[i] = duration;
 	}
 
-	var intervals = getIntervals("minor");
-	var scale = generateScale(intervals, pulses, baseNote, minNote, maxNote);
+	var scale = generateScale(intervals, pulses, octave, rootNote, semitone, minNote, maxNote);
 	var euclidean = generateEuclidean(pulses, steps);
 	var notesArr = distribute(euclidean, division, scale, durations, velocities);
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	n.parse(notesJSON);
 	// print(notesJSON);
-	// print(c.stringify());
+	print(c.stringify());
 }
 
 function print(text) {
