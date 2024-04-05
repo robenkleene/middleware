@@ -43,15 +43,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 208.0, 140.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_generator",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_generator"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 184.0, 162.0, 22.0 ],
+					"text" : "text middleware_generator.js"
 				}
 
 			}
@@ -159,15 +154,10 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 184.0, 137.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_distribute",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_distribute"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 160.0, 160.0, 22.0 ],
+					"text" : "text middleware_distribute.js"
 				}
 
 			}
@@ -188,15 +178,10 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 160.0, 137.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_bjorklund",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_bjorklund"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 136.0, 160.0, 22.0 ],
+					"text" : "text middleware_bjorklund.js"
 				}
 
 			}
@@ -205,15 +190,10 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 136.0, 137.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_toussaint",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_toussaint"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 112.0, 159.0, 22.0 ],
+					"text" : "text middleware_toussaint.js"
 				}
 
 			}
@@ -222,15 +202,10 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 112.0, 123.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_scales",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_scales"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 88.0, 145.0, 22.0 ],
+					"text" : "text middleware_scales.js"
 				}
 
 			}
@@ -238,16 +213,11 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 88.0, 145.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_randomize",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_randomize"
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 64.0, 167.0, 22.0 ],
+					"text" : "text middleware_randomize.js"
 				}
 
 			}
@@ -256,32 +226,10 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 40.0, 140.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_euclidean",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_euclidean"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 64.0, 123.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "middleware_scales",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js middleware_scales"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 40.0, 163.0, 22.0 ],
+					"text" : "text middleware_euclidean.js"
 				}
 
 			}
@@ -322,56 +270,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "middleware_bjorklund.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_distribute.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_euclidean.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_generator.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_randomize.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_scales.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "middleware_toussaint.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
