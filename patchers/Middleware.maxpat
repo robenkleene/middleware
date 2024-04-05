@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, 393.0, 1587.0, 931.0 ],
+		"rect" : [ 107.0, 152.0, 1587.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -223,7 +223,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.85046660900116, 344.710280120372772, 46.0, 20.0 ],
+					"patching_rect" : [ 480.0, 344.0, 46.0, 20.0 ],
 					"text" : "s #0dict"
 				}
 
@@ -232,11 +232,11 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 392.0, 312.0, 157.0, 20.0 ],
-					"text" : "routepass compile open export"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 392.0, 312.0, 191.0, 20.0 ],
+					"text" : "routepass compile open import export"
 				}
 
 			}
@@ -559,6 +559,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-13", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-13", 2 ]
 				}
 
@@ -770,6 +777,7 @@
 			"obj-4::obj-18" : [ "Compile", "Compile", 0 ],
 			"obj-4::obj-28" : [ "Export", "Export", 0 ],
 			"obj-4::obj-29" : [ "Drop", "live.drop", 0 ],
+			"obj-4::obj-30" : [ "Import", "Import", 0 ],
 			"obj-4::obj-33" : [ "Edit", "Edit", 0 ],
 			"obj-4::obj-6" : [ "1", "Dial 1", 0 ],
 			"obj-4::obj-7" : [ "2", "Dial 2", 0 ],

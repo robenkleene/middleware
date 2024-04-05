@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 424.0, 485.0, 1681.0, 868.0 ],
+		"rect" : [ 34.0, 215.0, 1239.0, 868.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,47 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1664.0, 496.0, 42.0, 22.0 ],
+					"text" : "export"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1664.0, 464.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 680.0, 0.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Import",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Import",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Import",
+					"varname" : "Import"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"linecount" : 4,
@@ -153,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1648.0, 496.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1544.0, 496.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -169,7 +210,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1648.0, 465.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1544.0, 465.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 608.0, 0.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -261,7 +302,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1592.0, 464.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 640.0, 0.0, 48.0, 15.0 ],
+					"presentation_rect" : [ 640.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -292,6 +333,7 @@
 						"Drop" : [ "" ],
 						"Edit" : [ 0.0 ],
 						"Export" : [ 0.0 ],
+						"Import" : [ 0.0 ],
 						"dial1" : [ 0.0 ],
 						"dial2" : [ 0.0 ],
 						"dial3" : [ 0.0 ],
@@ -522,7 +564,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1536.0, 496.0, 42.0, 22.0 ],
+					"patching_rect" : [ 1712.0, 496.0, 42.0, 22.0 ],
 					"text" : "export"
 				}
 
@@ -588,7 +630,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1536.0, 464.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1712.0, 464.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 720.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -801,6 +843,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -810,6 +859,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -942,6 +998,7 @@
 			"obj-18" : [ "Compile", "Compile", 0 ],
 			"obj-28" : [ "Export", "Export", 0 ],
 			"obj-29" : [ "Drop", "live.drop", 0 ],
+			"obj-30" : [ "Import", "Import", 0 ],
 			"obj-33" : [ "Edit", "Edit", 0 ],
 			"obj-6" : [ "Dial 1", "Dial 1", 0 ],
 			"obj-7" : [ "Dial 2", "Dial 2", 0 ],
