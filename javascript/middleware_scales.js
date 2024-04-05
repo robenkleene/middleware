@@ -27,7 +27,7 @@ generateScale = function(intervals, stepCount, octave, rootNote, semitone, min, 
 		if (intervals.length > 0) {
 			var index = i % intervals.length;
 			var octave = Math.floor(i / intervals.length);
-			offset = baseNote + parseInt(intervals[index]) + octave * OCTAVE_SIZE;
+			offset = parseInt(intervals[index]) + octave * OCTAVE_SIZE;
 		}
 		var note = baseNote + offset;
 		note = noteInRange(note, min, max);

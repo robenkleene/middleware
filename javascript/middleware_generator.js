@@ -42,9 +42,9 @@ function bang() {
 		velocities[i] = velocity;
 	}
 
-	var rootNote = c.get("scale::root_note");
+	var rootNote = parseInt(c.get("scale::root_note"));
 	var intervals = c.get("scale::scale_intervals");
-	var division = c.get("grid::interval");
+	var division = parseFloat(c.get("grid::interval"));
 	var duration = division;
 	var durations = Array(pulses);
 	for (var i = 0; i < durations.length; i++) {
@@ -60,6 +60,5 @@ function bang() {
 }
 
 function print(text) {
-	outlet(0, text);
-	outlet(0, "\n");
+	outlet(0, text + "\n");
 }
