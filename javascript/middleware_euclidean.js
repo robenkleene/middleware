@@ -4,7 +4,7 @@ var generate = toussaint;
 var generateEuclidean;
 generateEuclidean = function(n, k) {
 	if (n > k) {
-		n = k;
+		k = n;
 	}
 	return generate(n, k);
 };
