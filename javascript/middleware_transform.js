@@ -1,4 +1,5 @@
 OCTAVE_SIZE = 12;
+
 function noteInRange(note, min, max) {
 	if (note < min) {
 		while (note < min) {
