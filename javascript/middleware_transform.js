@@ -1,3 +1,19 @@
+OCTAVE_SIZE = 12;
+function noteInRange(note, min, max) {
+	if (note < min) {
+		while (note < min) {
+			note = note + OCTAVE_SIZE;
+		}
+		note = note - OCTAVE_SIZE;
+	} else if (note > max) {
+		while (note > min) {
+			note = note - OCTAVE_SIZE;
+		}
+		note = note + OCTAVE_SIZE;
+	}
+	return note;
+}
+
 var transform;
 transform = function(euclidean, division, notes, min, max) {
 	var notes = [];
