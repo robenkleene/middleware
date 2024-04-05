@@ -20,9 +20,9 @@ function noteInRange(note, min, max) {
 generateScale = function(intervals, stepCount, octave, rootNote, semitone, min, max) {
 	var baseNote = OCTAVE_SIZE * octave + rootNote - semitone;
 	baseNote = noteInRange(baseNote, min, max);
+	var notes = [];
 
-	var notes = [baseNote]
-	for (var i = 0; i < stepCount - 1; i++) {
+	for (var i = 0; i < stepCount; i++) {
 		if (intervals.length > 0) {
 			var index = i % intervals.length;
 			var note = baseNote + parseInt(intervals[index]);
