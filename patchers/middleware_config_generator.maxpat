@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 376.0, 208.0, 140.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "middleware_generator",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js middleware_generator"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"data" : 					{
 						"grid" : 						{
 							"interval" : 0.25
@@ -321,6 +338,13 @@
 			}
 , 			{
 				"name" : "middleware_euclidean.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middleware_generator.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
