@@ -2,7 +2,6 @@
 autowatch = 1;
 
 include("middleware_euclidean");
-include("middleware_intervals");
 include("middleware_scales");
 include("middleware_distribute");
 
