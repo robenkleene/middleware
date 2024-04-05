@@ -1,7 +1,6 @@
 // Re-compile the file automatically when it changes
 autowatch = 1;
 
-// External Dependencies
 include("middleware_euclidean");
 include("middleware_intervals");
 include("middleware_scales");
