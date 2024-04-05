@@ -1,7 +1,5 @@
 OCTAVE_SIZE = 12;
 
-var generateScale;
-
 function noteInRange(note, min, max) {
 	if (note < min) {
 		while (note < min) {
@@ -17,6 +15,7 @@ function noteInRange(note, min, max) {
 	return note;
 }
 
+var generateScale;
 generateScale = function(intervals, stepCount, octave, rootNote, semitone, min, max) {
 	var baseNote = OCTAVE_SIZE * octave + rootNote - semitone;
 	baseNote = noteInRange(baseNote, min, max);
