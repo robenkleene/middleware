@@ -57,8 +57,6 @@ function bang() {
 	var notes = { notes: notesArr };
 	var notesJSON = JSON.stringify(notes);
 	n.parse(notesJSON);
-	// print(notesJSON);
-	print(c.stringify());
 }
 
 function print(text) {
