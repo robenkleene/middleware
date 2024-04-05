@@ -8,9 +8,6 @@ function noteInRange(note, min, max) {
 			note = note + OCTAVE_SIZE;
 		}
 		note = note - OCTAVE_SIZE;
-		if (note < min) {
-			note -= intervals[index];
-		}
 	} else if (note > max) {
 		while (note > min) {
 			note = note - OCTAVE_SIZE;
@@ -22,18 +19,16 @@ function noteInRange(note, min, max) {
 
 generateScale = function(intervals, stepCount, octave, rootNote, semitone, min, max) {
 	var baseNote = OCTAVE_SIZE * octave + rootNote - semitone;
-	if (baseNote < min) {
-		baseNote = min;
-	}
-	if (baseNote > max) {
-		baseNote = max;
-	}
+	baseNote = noteInRange(baseNote, min, max);
 
 	var notes = [baseNote]
 	for (var i = 0; i < stepCount - 1; i++) {
 		if (intervals.length > 0) {
 			var index = i % intervals.length;
 			var note = baseNote + parseInt(intervals[index]);
+			if (note > max) {
+				note = noteInRange(note, min, max);
+			}
 		}
 		notes.push(note);
 	}
