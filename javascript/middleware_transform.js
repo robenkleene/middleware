@@ -28,7 +28,7 @@ transform = function(euclidean, division, notes, min, max) {
 		var pulse = euclidean[i % euclidean.length];
 		if (pulse > 0) {
 			var note = notes[i];
-			var pitch = note.get("pitch");
+			var pitch = note["pitch"];
 			pitch = noteInRange(pitch, min, max);
 			note["pitch"] = pitch;
 			note["start_time"] = startTime;
