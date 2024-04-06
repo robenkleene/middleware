@@ -22,7 +22,18 @@ Anything output through the first outlet (e.g., `output(0, "Hello World");`) wil
 
 ### Dial
 
+A collection of eight dials available in JavaScript.
+
+These can also be controlled from Ableton Push.
+
 ### File
+
+A JavaScript file can be dragged here to load it.
+
+- `Edit`: Edit the JavaScript, close the text editor.
+- `Compile`: Re-compiles the script, this also runs the global JavaScript (the script is automatically compiled on first load, so first load also runs the global JavaScript).
+- `Export`: Export the notes dictionary as JSON.
+- `Import`: Import the notes dictionary from JSON.
 
 ## Default JavaScript
 
