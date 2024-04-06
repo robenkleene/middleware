@@ -25,6 +25,7 @@ function bang() {
 	var minNote = parseInt(minNoteDial.getvalueof());
 	var maxNote = parseInt(maxNoteDial.getvalueof());
 
+	var division = parseFloat(c.get("grid::interval"));
 	var notes = n.get("notes");
 	var euclidean = generateEuclidean(pulses, steps);
 	var notesArr = transform(euclidean, division, notes, minNote, maxNote);
