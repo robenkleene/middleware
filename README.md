@@ -26,11 +26,17 @@ Anything output through the first outlet (e.g., `output(0, "Hello World");`) wil
 
 ## Default JavaScript
 
-### Template
+### [Template](javascript/middleware_template.js)
 
-### Generator
+A minimal script that generates a single note that doesn't include any additional scripts.
 
-### Transformer
+### [Generator](javascript/middleware_generator.js)
+
+An example MIDI generator.
+
+### [Transformer](javascript/middleware_transformer.js)
+
+An example MIDI transformer.
 
 ## Workflow
 
