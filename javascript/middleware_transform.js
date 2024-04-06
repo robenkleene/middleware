@@ -17,21 +17,28 @@ function noteInRange(note, min, max) {
 
 var transform;
 transform = function(euclidean, division, notes, min, max) {
-	var notes = [];
 	startTime = 0
-	for (var i = 0; i < euclidean.length; i++) {
-		var pulse = euclidean[i];
+	var i = 0;
+
+	// `j` and `shouldBreak` are to prevent infinite loops if euclidean contains no pulses
+	var j = 0;
+	var shouldBreak = true;
+
+	while (i < notes.length) {
+		var pulse = euclidean[i % euclidean.length];
 		if (pulse > 0) {
-			var note = {
-				start_time: startTime,
-				pitch: scale[i % scale.length],
-				duration: durations[i % durations.length],
-				velocity: velocities[i % velocities.length]
-			};
-			notes.push(note);
+			var note = note[i];
+			note["pitch"] = noteInRange(note["pitch"], min, max);
+			note["start_time"] = startTime;
+			i++;
+			shouldBreak = false;
 		}
 		startTime += division;
+
+		j++;
+		if (shouldBreak && j >= euclidean.length) {
+			break;
+		}
 	}
 	return notes;
 }
-
