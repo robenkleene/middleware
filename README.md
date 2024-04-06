@@ -10,10 +10,36 @@ Middleware provides two devices, both available in Ableton Live's Clip interface
 
 ### Note
 
+Shows the current `"notes"` dictionary, this is what will be output to Live.
+
 ### Cont
 
+Shows the current `"context"` dictionary, this is contextual information that can be used in a script.
+
 ### Log
+
+Anything output through the first outlet (e.g., `output(0, "Hello World");`) will be logged here. It's cleared each time the script is run.
 
 ### Dial
 
 ### File
+
+## Default JavaScript
+
+### Template
+
+### Generator
+
+### Transformer
+
+## Workflow
+
+### Editing
+
+Under the `File` tab, there's an `Edit` button. The `Edit` button will open the JavaScript file in a text editor, closing the window will prompt for a path to save the edited script.
+
+### Running
+
+The script is run by pushing the `Apply` button.
+
+When `Generate` or `Transform` toggle is turned on, turning a dial will also run the script again.
