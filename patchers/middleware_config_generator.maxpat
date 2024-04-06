@@ -191,6 +191,11 @@
 						"grid" : 						{
 							"interval" : 0.25
 						}
+,
+						"scale" : 						{
+							"root_note" : 0,
+							"scale_intervals" : [ 0, 2, 4, 5, 7, 9, 11 ]
+						}
 
 					}
 ,
