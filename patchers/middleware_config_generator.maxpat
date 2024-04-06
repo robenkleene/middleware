@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 220.0, 1617.0, 863.0 ],
+		"rect" : [ 407.0, 191.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,95 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"data" : 					{
-						"notes" : [  ]
+						"notes" : [ 							{
+								"note_id" : 1,
+								"pitch" : 60,
+								"start_time" : 0.0,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 2,
+								"pitch" : 62,
+								"start_time" : 0.25,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 3,
+								"pitch" : 64,
+								"start_time" : 0.5,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 4,
+								"pitch" : 65,
+								"start_time" : 0.75,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 5,
+								"pitch" : 67,
+								"start_time" : 1.0,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 6,
+								"pitch" : 69,
+								"start_time" : 1.25,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 7,
+								"pitch" : 71,
+								"start_time" : 1.5,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 8,
+								"pitch" : 72,
+								"start_time" : 1.75,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+ ]
 					}
 ,
 					"id" : "obj-14",
@@ -78,11 +166,6 @@
 					"data" : 					{
 						"grid" : 						{
 							"interval" : 0.25
-						}
-,
-						"scale" : 						{
-							"root_note" : 0,
-							"scale_intervals" : [ 0, 2, 4, 5, 7, 9, 11 ]
 						}
 
 					}
