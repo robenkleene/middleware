@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 927.0, 538.0, 1617.0, 863.0 ],
+		"rect" : [ 77.0, 220.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,112 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"data" : 					{
+						"notes" : [ 							{
+								"note_id" : 1,
+								"pitch" : 60,
+								"start_time" : 0.0,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 2,
+								"pitch" : 62,
+								"start_time" : 0.25,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 3,
+								"pitch" : 64,
+								"start_time" : 0.5,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 4,
+								"pitch" : 65,
+								"start_time" : 0.75,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 5,
+								"pitch" : 67,
+								"start_time" : 1.0,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 6,
+								"pitch" : 69,
+								"start_time" : 1.25,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 7,
+								"pitch" : 71,
+								"start_time" : 1.5,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+, 							{
+								"note_id" : 8,
+								"pitch" : 72,
+								"start_time" : 1.75,
+								"duration" : 0.25,
+								"velocity" : 127.0,
+								"mute" : 0,
+								"probability" : 1.0,
+								"velocity_deviation" : 0.0,
+								"release_velocity" : 64.0
+							}
+ ]
+					}
+,
+					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 376.0, 136.0, 172.0, 22.0 ],
-					"text" : "text middleware_transformer.js"
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"patching_rect" : [ 23.0, 287.0, 141.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"legacy" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict testnotes @embed 1"
 				}
 
 			}
@@ -64,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 48.0, 312.0, 151.0, 22.0 ],
+					"patching_rect" : [ 63.0, 255.0, 151.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"legacy" : 0,
@@ -85,7 +184,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 23.0, 23.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -96,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 8.0, 192.0, 32.0, 22.0 ],
+					"patching_rect" : [ 23.0, 207.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -109,7 +208,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 360.0, 30.0, 30.0 ]
+					"patching_rect" : [ 63.0, 375.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -120,8 +219,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 312.0, 150.0, 87.0 ],
-					"text" : "Minimum context dictionary required for the default `middleware_generator` script to run. Double click to edit."
+					"patching_rect" : [ 223.0, 231.0, 150.0, 87.0 ],
+					"presentation_linecount" : 6,
+					"text" : "Dictionaries required for the `middleware_transformer` script to run, allowing testing outside of Live. Double click to edit."
 				}
 
 			}
@@ -132,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 248.0, 237.0, 22.0 ],
+					"patching_rect" : [ 87.0, 327.0, 237.0, 22.0 ],
 					"text" : "loadmess compile middleware_transformer"
 				}
 
@@ -145,7 +245,19 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 360.0, 30.0, 30.0 ]
+					"patching_rect" : [ 23.0, 375.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 376.0, 136.0, 172.0, 22.0 ],
+					"text" : "text middleware_transformer.js"
 				}
 
 			}
@@ -220,6 +332,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -233,7 +352,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
