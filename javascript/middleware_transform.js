@@ -20,12 +20,11 @@ transform = function(euclidean, division, notes, min, max) {
 	startTime = 0
 	var i = 0;
 
-	// `j` and `shouldBreak` are to prevent infinite loops if euclidean contains no pulses
 	var j = 0;
+	// `shouldBreak` is to prevent infinite loops if euclidean contains no pulses
 	var shouldBreak = true;
-
 	while (i < notes.length) {
-		var pulse = euclidean[i % euclidean.length];
+		var pulse = euclidean[j % euclidean.length];
 		if (pulse > 0) {
 			var note = notes[i];
 			var pitch = note["pitch"];
