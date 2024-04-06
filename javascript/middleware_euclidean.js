@@ -3,5 +3,8 @@ var generate = toussaint;
 
 var generateEuclidean;
 generateEuclidean = function(n, k) {
-  return generate(n, k);
+	if (n > k) {
+		k = n;
+	}
+	return generate(n, k);
 };
