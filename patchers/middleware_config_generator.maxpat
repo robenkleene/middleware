@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 220.0, 1617.0, 863.0 ],
+		"rect" : [ 330.0, 249.0, 1617.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,6 +55,11 @@
 					"data" : 					{
 						"grid" : 						{
 							"interval" : 0.25
+						}
+,
+						"scale" : 						{
+							"root_note" : 0,
+							"scale_intervals" : [ 0, 2, 4, 5, 7, 9, 11 ]
 						}
 
 					}
