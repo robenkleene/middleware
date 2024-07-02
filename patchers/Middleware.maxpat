@@ -154,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.0, 336.0, 61.0, 20.0 ],
-					"text" : "s #0dictout"
+					"text" : "s ---#0dictout"
 				}
 
 			}
@@ -166,7 +166,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 448.0, 440.0, 60.0, 20.0 ],
-					"text" : "r #0dictout"
+					"text" : "r ---#0dictout"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.0, 112.0, 60.0, 20.0 ],
-					"text" : "r #0dictout"
+					"text" : "r ---#0dictout"
 				}
 
 			}
@@ -190,7 +190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.037382185459137, 480.224297761917114, 35.0, 20.0 ],
-					"text" : "r #0js"
+					"text" : "r ---#0js"
 				}
 
 			}
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 88.0, 36.0, 20.0 ],
-					"text" : "s #0js"
+					"text" : "s ---#0js"
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 248.0, 44.0, 20.0 ],
-					"text" : "r #0dict"
+					"text" : "r ---#0dict"
 				}
 
 			}
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 344.0, 46.0, 20.0 ],
-					"text" : "s #0dict"
+					"text" : "s ---#0dict"
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 208.0, 44.0, 20.0 ],
-					"text" : "s #0run"
+					"text" : "s ---#0run"
 				}
 
 			}
@@ -259,7 +259,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 64.0, 42.0, 20.0 ],
-					"text" : "r #0run"
+					"text" : "r ---#0run"
 				}
 
 			}
@@ -294,7 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 392.0, 552.186914026737213, 43.0, 20.0 ],
-					"text" : "s #0log"
+					"text" : "s ---#0log"
 				}
 
 			}
@@ -306,7 +306,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 48.0, 41.0, 20.0 ],
-					"text" : "r #0log"
+					"text" : "r ---#0log"
 				}
 
 			}
