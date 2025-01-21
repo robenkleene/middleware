@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 215.0, 1239.0, 868.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 154.0, 1239.0, 868.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-27",
@@ -46,7 +23,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1664.0, 496.0, 42.0, 22.0 ],
-					"text" : "export"
+					"text" : "import"
 				}
 
 			}
@@ -68,6 +45,7 @@
 							"parameter_longname" : "Import",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Import",
 							"parameter_type" : 2
 						}
@@ -219,6 +197,7 @@
 							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Edit",
 							"parameter_type" : 2
 						}
@@ -309,6 +288,7 @@
 							"parameter_longname" : "Compile",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Compile",
 							"parameter_type" : 2
 						}
@@ -364,6 +344,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 8",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 8",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -390,6 +371,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 7",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 7",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -416,6 +398,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 6",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 6",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -442,6 +425,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 5",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 5",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -468,6 +452,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 4",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 4",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -494,6 +479,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 3",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 3",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -520,6 +506,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 2",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 2",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -546,6 +533,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Dial 1",
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dial 1",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -611,6 +599,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Drop",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.drop",
 							"parameter_type" : 4
 						}
@@ -639,6 +628,7 @@
 							"parameter_longname" : "Export",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Export",
 							"parameter_type" : 2
 						}
@@ -989,6 +979,7 @@
 
 			}
  ],
+		"originid" : "pat-40361",
 		"parameters" : 		{
 			"obj-10" : [ "Dial 6", "Dial 6", 0 ],
 			"obj-11" : [ "Dial 5", "Dial 5", 0 ],

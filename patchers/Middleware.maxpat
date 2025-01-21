@@ -2,42 +2,21 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 152.0, 1166.0, 931.0 ],
-		"bglocked" : 0,
+		"rect" : [ 107.0, 100.0, 1166.0, 922.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "bang on parameter change",
@@ -153,8 +132,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 336.0, 61.0, 20.0 ],
-					"text" : "s ---#0dictout"
+					"patching_rect" : [ 104.0, 344.0, 61.0, 20.0 ],
+					"text" : "s #0dictout"
 				}
 
 			}
@@ -166,7 +145,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 448.0, 440.0, 60.0, 20.0 ],
-					"text" : "r ---#0dictout"
+					"text" : "r #0dictout"
 				}
 
 			}
@@ -178,7 +157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.0, 112.0, 60.0, 20.0 ],
-					"text" : "r ---#0dictout"
+					"text" : "r #0dictout"
 				}
 
 			}
@@ -189,8 +168,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.037382185459137, 480.224297761917114, 35.0, 20.0 ],
-					"text" : "r ---#0js"
+					"patching_rect" : [ 520.0, 472.0, 35.0, 20.0 ],
+					"text" : "r #0js"
 				}
 
 			}
@@ -201,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 88.0, 36.0, 20.0 ],
-					"text" : "s ---#0js"
+					"text" : "s #0js"
 				}
 
 			}
@@ -213,7 +192,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 248.0, 44.0, 20.0 ],
-					"text" : "r ---#0dict"
+					"text" : "r #0dict"
 				}
 
 			}
@@ -223,8 +202,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 344.0, 46.0, 20.0 ],
-					"text" : "s ---#0dict"
+					"patching_rect" : [ 480.0, 400.0, 46.0, 20.0 ],
+					"text" : "s #0dict"
 				}
 
 			}
@@ -247,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 208.0, 44.0, 20.0 ],
-					"text" : "s ---#0run"
+					"text" : "s #0run"
 				}
 
 			}
@@ -259,7 +238,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 64.0, 42.0, 20.0 ],
-					"text" : "r ---#0run"
+					"text" : "r #0run"
 				}
 
 			}
@@ -294,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 392.0, 552.186914026737213, 43.0, 20.0 ],
-					"text" : "s ---#0log"
+					"text" : "s #0log"
 				}
 
 			}
@@ -306,7 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 48.0, 41.0, 20.0 ],
-					"text" : "r ---#0log"
+					"text" : "r #0log"
 				}
 
 			}
@@ -389,6 +368,7 @@
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -767,6 +747,7 @@
 
 			}
  ],
+		"originid" : "pat-40399",
 		"parameters" : 		{
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],
@@ -831,7 +812,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Middleware Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/middleware/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/middleware/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
