@@ -72,8 +72,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 200.0, 71.0, 20.0 ],
-					"text" : "r #0gateinput"
+					"patching_rect" : [ 0.0, 200.0, 80.0, 20.0 ],
+					"text" : "r #0gateinputjs"
 				}
 
 			}
@@ -932,7 +932,7 @@
 
 			}
  ],
-		"originid" : "pat-40671",
+		"originid" : "pat-40675",
 		"parameters" : 		{
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],
