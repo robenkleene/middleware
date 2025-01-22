@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 364.0, 112.0, 1166.0, 922.0 ],
+		"rect" : [ 364.0, 100.0, 864.0, 922.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -24,7 +24,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.0, 400.0, 150.0, 107.0 ],
+					"patching_rect" : [ 640.0, 400.0, 152.0, 107.0 ],
 					"text" : "`import` acts as a separate pathway so that the incoming notes don't set the `dict`, and the JavaScript doesn't run after importing the notes into the `dict`. With these two changes, an `import` will just set the notes to what's imported."
 				}
 
@@ -457,6 +457,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Select which tab is viewed.",
 					"id" : "obj-26",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -471,6 +472,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Note", "Cont", "Log", "Dial", "File" ],
+							"parameter_info" : "Select which tab is viewed.",
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
@@ -944,7 +946,7 @@
 
 			}
  ],
-		"originid" : "pat-40679",
+		"originid" : "pat-41419",
 		"parameters" : 		{
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],
