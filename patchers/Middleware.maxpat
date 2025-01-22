@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 364.0, 112.0, 1166.0, 922.0 ],
+		"rect" : [ 364.0, 100.0, 864.0, 922.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -24,7 +24,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.0, 400.0, 150.0, 107.0 ],
+					"patching_rect" : [ 640.0, 400.0, 152.0, 107.0 ],
 					"text" : "`import` acts as a separate pathway so that the incoming notes don't set the `dict`, and the JavaScript doesn't run after importing the notes into the `dict`. With these two changes, an `import` will just set the notes to what's imported."
 				}
 
@@ -85,7 +85,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 200.0, 80.0, 20.0 ],
-					"text" : "r #0gateinputjs"
+					"text" : "r ---gateinputjs"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 552.0, 400.0, 81.0, 20.0 ],
-					"text" : "s #0gateinputjs"
+					"text" : "s ---gateinputjs"
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 688.0, 36.0, 20.0 ],
-					"text" : "s #0js"
+					"text" : "s ---js"
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 480.0, 80.0, 20.0 ],
-					"text" : "r #0gateinputjs"
+					"text" : "r ---gateinputjs"
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 88.0, 616.0, 61.0, 20.0 ],
-					"text" : "s #0dictout"
+					"text" : "s ---dictout"
 				}
 
 			}
@@ -263,7 +263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.0, 112.0, 60.0, 20.0 ],
-					"text" : "r #0dictout"
+					"text" : "r ---dictout"
 				}
 
 			}
@@ -275,7 +275,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.0, 480.0, 35.0, 20.0 ],
-					"text" : "r #0js"
+					"text" : "r ---js"
 				}
 
 			}
@@ -286,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 88.0, 36.0, 20.0 ],
-					"text" : "s #0js"
+					"text" : "s ---js"
 				}
 
 			}
@@ -298,7 +298,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 272.0, 44.0, 20.0 ],
-					"text" : "r #0dict"
+					"text" : "r ---dict"
 				}
 
 			}
@@ -309,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 400.0, 46.0, 20.0 ],
-					"text" : "s #0dict"
+					"text" : "s ---dict"
 				}
 
 			}
@@ -332,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 208.0, 44.0, 20.0 ],
-					"text" : "s #0run"
+					"text" : "s ---run"
 				}
 
 			}
@@ -344,7 +344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 64.0, 42.0, 20.0 ],
-					"text" : "r #0run"
+					"text" : "r ---run"
 				}
 
 			}
@@ -379,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 392.0, 552.186914026737213, 43.0, 20.0 ],
-					"text" : "s #0log"
+					"text" : "s ---log"
 				}
 
 			}
@@ -391,7 +391,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 48.0, 41.0, 20.0 ],
-					"text" : "r #0log"
+					"text" : "r ---log"
 				}
 
 			}
@@ -457,6 +457,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Select which tab is viewed.",
 					"id" : "obj-26",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -471,6 +472,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Note", "Cont", "Log", "Dial", "File" ],
+							"parameter_info" : "Select which tab is viewed.",
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
@@ -944,7 +946,7 @@
 
 			}
  ],
-		"originid" : "pat-40679",
+		"originid" : "pat-41419",
 		"parameters" : 		{
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],

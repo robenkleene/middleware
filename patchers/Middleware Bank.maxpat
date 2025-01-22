@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 154.0, 1239.0, 868.0 ],
+		"rect" : [ 274.0, 101.0, 937.0, 868.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -29,6 +29,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Import notes JSON.",
 					"id" : "obj-30",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -42,6 +43,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Import notes JSON.",
 							"parameter_longname" : "Import",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -179,6 +181,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Edit JavaScript.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-33",
@@ -194,6 +197,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Edit JavaScript.",
 							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -272,6 +276,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Compile JavaScript",
 					"id" : "obj-18",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -285,6 +290,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Compile JavaScript",
 							"parameter_longname" : "Compile",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -331,6 +337,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -342,6 +349,7 @@
 					"presentation_rect" : [ 560.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 8",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -358,6 +366,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -369,6 +378,7 @@
 					"presentation_rect" : [ 528.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 7",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -385,6 +395,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-10",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -396,6 +407,7 @@
 					"presentation_rect" : [ 496.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 6",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -412,6 +424,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -423,6 +436,7 @@
 					"presentation_rect" : [ 464.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 5",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -439,6 +453,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-12",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -450,6 +465,7 @@
 					"presentation_rect" : [ 560.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 4",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -466,6 +482,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-8",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -477,6 +494,7 @@
 					"presentation_rect" : [ 528.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 3",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -493,6 +511,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -504,6 +523,7 @@
 					"presentation_rect" : [ 496.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 2",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -520,6 +540,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dial value accessible via JavaScript.",
 					"id" : "obj-6",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -531,6 +552,7 @@
 					"presentation_rect" : [ 464.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "Dial value accessible via JavaScript.",
 							"parameter_longname" : "Dial 1",
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -612,6 +634,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Export notes JSON.",
 					"id" : "obj-28",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -625,6 +648,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Export notes JSON.",
 							"parameter_longname" : "Export",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -979,7 +1003,7 @@
 
 			}
  ],
-		"originid" : "pat-40361",
+		"originid" : "pat-41415",
 		"parameters" : 		{
 			"obj-10" : [ "Dial 6", "Dial 6", 0 ],
 			"obj-11" : [ "Dial 5", "Dial 5", 0 ],
