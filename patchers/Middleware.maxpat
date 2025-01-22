@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 152.0, 100.0, 1166.0, 922.0 ],
+		"rect" : [ 364.0, 112.0, 1166.0, 922.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
@@ -18,6 +18,18 @@
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 640.0, 400.0, 150.0, 107.0 ],
+					"text" : "`import` acts as a separate pathway so that the incoming notes don't set the `dict`, and the JavaScript doesn't run after importing the notes into the `dict`. With these two changes, an `import` will just set the notes to what's imported."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
@@ -932,7 +944,7 @@
 
 			}
  ],
-		"originid" : "pat-40675",
+		"originid" : "pat-40679",
 		"parameters" : 		{
 			"obj-26" : [ "Tab", "Tab", 0 ],
 			"obj-4::obj-10" : [ "6", "Dial 6", 0 ],
