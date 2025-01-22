@@ -33,7 +33,7 @@ A JavaScript file can be dragged here to load it.
 - `Edit`: Edit the JavaScript, close the text editor.
 - `Compile`: Re-compiles the script, this also runs the global JavaScript (the script is automatically compiled on first load, so first load also runs the global JavaScript).
 - `Export`: Export the notes dictionary as JSON.
-- `Import`: Import the notes dictionary from JSON.
+- `Import`: Import the notes dictionary from JSON (import bypasses running JavaScript entirely).
 
 ## Default JavaScript
 
