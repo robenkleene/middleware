@@ -29,7 +29,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Import notes JSON.",
+					"annotation" : "Import notes JSON. Only works if Auto is turned on for the Generator or Transformer device.",
 					"id" : "obj-30",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -43,7 +43,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Import notes JSON.",
+							"parameter_info" : "Import notes JSON. Only works if Auto is turned on for the Generator or Transformer device.",
 							"parameter_longname" : "Import",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1003,7 +1003,7 @@
 
 			}
  ],
-		"originid" : "pat-41415",
+		"originid" : "pat-48",
 		"parameters" : 		{
 			"obj-10" : [ "Dial 6", "Dial 6", 0 ],
 			"obj-11" : [ "Dial 5", "Dial 5", 0 ],
